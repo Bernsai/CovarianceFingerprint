@@ -20,17 +20,19 @@ We implemented the given Algorithms and the general problem of automatic GPM ret
 and Tensorflow-Probability 0.11 (and other auxiliary libraries). We used our package 
 [gpbasics](https://github.com/Bernsai/GaussianProcessFundamentals) for basic Gaussian process model functionalities 
 and our package [gpmretrieval](https://github.com/Bernsai/GaussianProcessModelRetrieval) for Gaussian process model 
-inference.
+inference [2].
 
 ## Example
 In `test/Example.py` we provide an exemplary application of our proposed concept of _Covariance Fingerprints_ to a 
 financial dataset covering the _DAX Performance Index_ (which needs to be separately retrieved via 
 [Yahoo Finance](https://finance.yahoo.com/quote/%5EN225/history)). The resulting matching regions may be further analyzed 
-and interwoven using our interval-based implementation of Allen relations [2] (cf. `main/AllenRelations.py`). 
+and interwoven using our interval-based implementation of Allen relations [3] (cf. `main/AllenRelations.py`). 
 
 ## References
 
 [1] F. Berns and C. Beecks, Stochastic Time Series Representation for Interval Pattern Mining via Gaussian Processes, 
 in SDM, SIAM, 2021.
 
-[2] J. F. Allen, Maintaining knowledge about temporal intervals, Commun. ACM, 26 (1983), pp. 832–843.
+[2] F. Berns and C. Beecks, Complexity-adaptive gaussian process model inference for large-scale data, in SDM, SIAM, 2021.
+
+[3] J. F. Allen, Maintaining knowledge about temporal intervals, Commun. ACM, 26 (1983), pp. 832–843.
