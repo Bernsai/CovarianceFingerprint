@@ -3,7 +3,7 @@
 _Trends, periodicities and local variations are among the main recognizable patterns in time series data. While humans 
 are able to quickly explore the superimposition of such patterns, mining algorithms are often faced with the challenge 
 of finding (i) a suitable time series representation model and (ii) an expressive query model which adapt to diverse 
-application domains and information needs. In this paper, we propose a supervised stochastic approach which facilitates 
+application domains and information needs. [...] We propose a supervised stochastic approach which facilitates 
 interval-based pattern analysis of time series data. Our proposal is based on non-parametric Gaussian Processes and is 
 able to interrelate interesting patterns within single and across multiple time series. Our performance evaluation in 
 different real-world application domains indicates that our approach is able to expose interesting patterns and 
