@@ -26,7 +26,7 @@ inference.
 In `test/Example.py` we provide an exemplary application of our proposed concept of _Covariance Fingerprints_ to a 
 financial dataset covering the _DAX Performance Index_ (which needs to be separately retrieved via 
 [Yahoo Finance](https://finance.yahoo.com/quote/%5EN225/history)). The resulting matching regions may be further analyzed 
-and interwove using our interval-based implementation of Allen relations [2] (cf. `main/AllenRelations.py`). 
+and interwoven using our interval-based implementation of Allen relations [2] (cf. `main/AllenRelations.py`). 
 
 ## References
 
