@@ -12,10 +12,10 @@ INSTALL_REQUIRES = [
 setup(
     name='covariancefingerprint',
     version='1.0.0',
-    packages=['CoffeeCapsules', 'NoaaExperiments', 'PerformanceEval', 'FinanceExperiments', 'TMY3SolarExperiments'],
+    packages=[],
     package_dir={'': 'main'},
     url='URL',
-    license='Apache License 2.0',
+    license='MIT License',
     author='Fabian Berns',
     author_email='fabian.berns@googlemail.com',
     description='',
